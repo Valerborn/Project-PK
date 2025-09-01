@@ -1,0 +1,27 @@
+[project]
+name = "pkengine"
+version = "0.0.1"
+description = "Pharmacokinetics engine: dosing, models, simulation, metrics"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Valerborn" }]
+license = { text = "MIT" }
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+  "pydantic>=2",
+  "pint>=0.22"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# src/ layout
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pkengine*"]
+exclude = ["tests*"]

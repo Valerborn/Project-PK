@@ -1,0 +1,29 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Packaging junk
+pip-wheel-metadata/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
