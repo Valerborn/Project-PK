@@ -1,6 +1,6 @@
 [project]
 name = "pkengine"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pharmacokinetics engine: dosing, models, simulation, metrics"
 readme = "README.md"
 requires-python = ">=3.11"
