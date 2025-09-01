@@ -27,3 +27,6 @@ pip-wheel-metadata/
 # OS cruft
 .DS_Store
 Thumbs.db
+
+# Local test scripts
+smoke_test.py

@@ -1,6 +1,6 @@
 [project]
 name = "pkengine"
-version = "0.0.1"
+version = "0.1.0"
 description = "Pharmacokinetics engine: dosing, models, simulation, metrics"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -11,6 +11,11 @@ dependencies = [
   "scipy>=1.10",
   "pydantic>=2",
   "pint>=0.22"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
 ]
 
 [build-system]
