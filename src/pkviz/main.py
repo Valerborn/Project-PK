@@ -1,2 +1,9 @@
+from PySide6.QtWidgets import QApplication
+from .ui.main_window import MainWindow
+import sys
+
 def main():
-    print("pkviz GUI starting up...")
+    app = QApplication(sys.argv)
+    win = MainWindow()
+    win.show()
+    sys.exit(app.exec())

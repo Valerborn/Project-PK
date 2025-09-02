@@ -42,3 +42,4 @@ class Drug:
     CL_L_per_h: float
     V_L: float
     ka_per_h: float
+    drug_id: str = "default"
